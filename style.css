@@ -91,9 +91,13 @@ h1 {
     width: 51.4em;
 }
 
+.mif-search {
+    font-size: 3em;
+}
 
 
 .button {
+    padding: 0 0 1em 0;
     margin: 0;
     display: inline-block;
     height: 3.5em;
