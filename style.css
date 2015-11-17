@@ -14,7 +14,7 @@ body {
     margin: 4em auto 0 auto;
     padding: 0.3em 0 5em 0;
     max-width: 50%;
-    /*height: 194px;*/
+    height: 194px;
     text-align: center;
     display: block;
     position: relative;
@@ -41,12 +41,6 @@ body {
     z-index: -1; 
 }*/
 
-h1 {
-    font-family: Lato;
-    font-size: 4em;
-    color: white;
-}
-
 h2 {
     font-size: 1em;
     color: white;
@@ -54,43 +48,60 @@ h2 {
 }
 
 h1 {
-    text-shadow: 0 1px 0 #ccc,
-                   0 2px 0 #c9c9c9,
-                   0 3px 0 #bbb,
-                   0 4px 0 #b9b9b9,
-                   0 5px 0 #aaa,
-                   0 6px 1px rgba(0,0,0,.1),
-                   0 0 5px rgba(0,0,0,.1),
-                   0 1px 3px rgba(0,0,0,.3),
-                   0 3px 5px rgba(0,0,0,.2),
-                   0 5px 10px rgba(0,0,0,.25),
-                   0 10px 10px rgba(0,0,0,.2),
-                   0 20px 20px rgba(0,0,0,.15);
+    font-family: Lato;
+    font-size: 4em;
+    color: white;
+    margin: 0.6em 0 1em 0;
+    text-shadow: 
+        0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
 }
 
 
 /*Form*/
 
 .form-div {
-  
-    padding: 0;
+    margin: 0 auto;
+
     text-align: center;
     display: block;
     
 }
 
 .list-form[type="text"] {
-    
-    width: 20em;
-    padding: 10px;
-    font-size: 2em;
+    margin: 0;
     display: inline-block;
+    font-size: 2em;
 }
 
-.btn {
-    margin: -30em 0 0 -0.4em;
-    width: 58px;
-    height: 58px;
-    display: inline-block;
+.input-control {
+    height: 3.5em;
 }
+.input-control.text {
+    width: 51.4em;
+}
+
+
+
+.button {
+    margin: 0;
+    display: inline-block;
+    height: 3.5em;
+    width: 3.5em;
+    position: absolute;
+    top: 0;
+    right: -2.38em;
+   
+}
+
 
