@@ -98,11 +98,48 @@ h1 {
 
 .button:hover {
     background-color: #FF822D;
-    transition: background-color 1s;
+    transition: background-color 500;
 }
 
 
 /*List Items*/
+
+.list-item {
+    margin: 0 auto;
+    padding:0;
+    width: 50%;
+    height: 4em;
+    display: block;
+    z-index: 1;
+}
+
+.item1 {
+    background-color: #2BF476;
+}
+
+.check-box {
+    width: 6em;
+    height: 5em;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.6;
+    z-index: 5;
+    margin: -0.25em 0 0 0;
+}
+
+.uncheck {
+    background-color: white;   
+}
+
+.item-text {
+    margin: -0.25em 0 0 0;
+    padding: 0 0 0 0.5em;
+    font-size: 2em;
+    font-family: Lato;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
