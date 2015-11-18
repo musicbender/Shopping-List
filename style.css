@@ -98,7 +98,7 @@ h1 {
 
 .button:hover {
     background-color: #FF822D;
-    transition: background-color 500;
+    transition: background-color 0.5s;
 }
 
 
@@ -111,10 +111,23 @@ h1 {
     height: 4em;
     display: block;
     z-index: 1;
+    border: 2px solid white;
 }
 
 .item1 {
     background-color: #2BF476;
+}
+
+.item2 {
+    background-color: #35AAF0;
+}
+
+.item3 {
+    background-color: #FF822D;
+}
+
+.item-checked {
+    background-color: #ACACAC;
 }
 
 .check-box {
@@ -132,6 +145,10 @@ h1 {
     background-color: white;   
 }
 
+.check {
+    background-color: white;   
+}
+
 .item-text {
     margin: -0.25em 0 0 0;
     padding: 0 0 0 0.5em;
@@ -139,7 +156,13 @@ h1 {
     font-family: Lato;
     display: inline-block;
     vertical-align: middle;
+    color: white;
 }
+
+.text-checked {
+    text-decoration: line-through;
+}
+
 
 
 
