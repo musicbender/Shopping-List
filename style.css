@@ -4,7 +4,7 @@ body, html{
 }
 
 body {
-    background-color: #F8FBFF;
+    background-color: #2AF0CF;
 }
 
 
@@ -18,27 +18,27 @@ body {
     text-align: center;
     display: block;
     position: relative;
-    background-color: #2AF0CF;
-    background-image:
+    background-color: white;
+    /*background-image:
         linear-gradient( 
             to top,
-            #2BF476, #2AF0CF 30%
-        )
+            black, white 30%
+        )*/
     
 }
 
 h2 {
     font-size: 1em;
-    color: white;
+    color: #2AF0CF;
     margin: -2em 0;
 }
 
 h1 {
     font-family: Lato;
-    font-size: 4em;
-    color: white;
-    margin: 0.6em 0 1em 0;
-    text-shadow: 
+    font-size: 5.5em;
+    color: #2AF0CF;
+    margin: 0.6em 0 0.5em 0;
+    /*text-shadow: 
         0 1px 0 #ccc,
         0 2px 0 #c9c9c9,
         0 3px 0 #bbb,
@@ -50,7 +50,7 @@ h1 {
         0 3px 5px rgba(0,0,0,.2),
         0 5px 10px rgba(0,0,0,.25),
         0 10px 10px rgba(0,0,0,.2),
-        0 20px 20px rgba(0,0,0,.15);
+        0 20px 20px rgba(0,0,0,.15);*/
 }
 
 
@@ -115,15 +115,25 @@ h1 {
 }
 
 .item1 {
-    background-color: #2BF476;
+    background-color: black;
+    color: white;
+}
+
+.box1 {
+    background-color: white;
 }
 
 .item2 {
-    background-color: #35AAF0;
+    background-color: white;
+    color: black;
+    
+    border-left: 2px solid black;
 }
 
-.item3 {
-    background-color: #FF822D;
+.box2 {
+    background-color: white;
+}
+
 }
 
 .item-checked {
@@ -137,17 +147,17 @@ h1 {
     /*border: 1px solid black;*/
     display: inline-block;
     vertical-align: middle;
-    opacity: 0.5;
+    /*opacity: 0.3;*/
     z-index: 5;
     
 }
 
 .uncheck {
-    background-color: white;   
+    
 }
 
 .check {
-    background-color: white;   
+
 }
 
 .item-text {
@@ -157,7 +167,6 @@ h1 {
     font-family: Lato;
     display: inline-block;
     vertical-align: middle;
-    color: white;
 }
 
 .text-checked {
