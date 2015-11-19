@@ -13,7 +13,6 @@ body {
 .masthead {
     margin: 4em auto 0 auto;
     padding: 0.3em 0 5em 0;
-    max-width: 50%;
     height: 194px;
     text-align: center;
     display: block;
@@ -57,7 +56,7 @@ h1 {
 /*Form*/
 
 .form-div {
-    margin: 0 auto;
+    margin: 0 auto 1em auto;
     text-align: center;
     display: block;
     
@@ -73,7 +72,7 @@ h1 {
     height: 3.5em;
 }
 .input-control.text {
-    width: 51.4em;
+    width: 66.85%;
     border: 1px solid black;
 }
 
@@ -108,24 +107,19 @@ h1 {
 /*List Items*/
 
 .list-item {
+    padding: 0;
+    height: 2em;
     
     
 }
 
 .item1 {
- 
-}
-
-.box1 {
-
+    background-color: black;
+    color: white;
 }
 
 .item2 {
 
-}
-
-.box2 {
- 
 }
 
 .item-checked {
@@ -133,7 +127,11 @@ h1 {
 }
 
 .check-box {
-
+    margin: 0;
+    background-color: #f2f2f2;
+    height: 4em;
+    border: 1px solid black;
+    
     
 }
 
@@ -146,12 +144,11 @@ h1 {
 }
 
 .item-text {
-    margin: -0.25em 0 0 0;
-    padding: 0 0 0 0.5em;
+    margin: 0;
+    padding: 0.35em 0 0 0.75em;
     font-size: 2em;
     font-family: Lato;
-    display: inline-block;
-    vertical-align: middle;
+    height: 2em;
 }
 
 .text-checked {
