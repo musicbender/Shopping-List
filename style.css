@@ -58,7 +58,6 @@ h1 {
 
 .form-div {
     margin: 0 auto;
-
     text-align: center;
     display: block;
     
@@ -75,6 +74,7 @@ h1 {
 }
 .input-control.text {
     width: 51.4em;
+    border: 1px solid black;
 }
 
 .mif-search {
@@ -86,13 +86,16 @@ h1 {
     padding: 0 0 1em 0;
     margin: 0;
     display: inline-block;
-    height: 3.5em;
+    height: 3.45em;
     width: 3.5em;
     position: absolute;
     top: 0;
     right: -2.38em;
-    background-color: lightgrey;
-    border: 1px solid black;
+    background-color: white;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
    
 }
 
@@ -105,50 +108,32 @@ h1 {
 /*List Items*/
 
 .list-item {
-    margin: 0.333em auto 0.333em auto;
-    padding:0;
-    width: 50%;
-    height: 4em;
-    display: block;
-    z-index: 1;
+    
     
 }
 
 .item1 {
-    background-color: black;
-    color: white;
+ 
 }
 
 .box1 {
-    background-color: white;
+
 }
 
 .item2 {
-    background-color: white;
-    color: black;
-    
-    border-left: 2px solid black;
+
 }
 
 .box2 {
-    background-color: white;
-}
-
+ 
 }
 
 .item-checked {
-    background-color: #ACACAC;
+
 }
 
 .check-box {
-    margin: 0 0 0 0;
-    width: 6em;
-    height: 4em;
-    /*border: 1px solid black;*/
-    display: inline-block;
-    vertical-align: middle;
-    /*opacity: 0.3;*/
-    z-index: 5;
+
     
 }
 
