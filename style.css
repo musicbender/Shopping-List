@@ -9,23 +9,20 @@ body {
 
 
 /*Masthead*/
-.top {
-    
-}
+
 .masthead {
     margin: 4em auto 0 auto;
+    width: 90%;
     padding: 0.3em 0 5em 0;
     height: 194px;
     text-align: center;
     display: block;
-    position: relative;
     background-color: white;
-    /*background-image:
-        linear-gradient( 
-            to top,
-            black, white 30%
-        )*/
-    
+}
+
+.title {
+    margin: 0 auto 2em auto;
+    height: 194px;
 }
 
 h2 {
@@ -39,74 +36,39 @@ h1 {
     font-size: 5.5em;
     color: #2AF0CF;
     margin: 0.6em 0 0.5em 0;
-    /*text-shadow: 
-        0 1px 0 #ccc,
-        0 2px 0 #c9c9c9,
-        0 3px 0 #bbb,
-        0 4px 0 #b9b9b9,
-        0 5px 0 #aaa,
-        0 6px 1px rgba(0,0,0,.1),
-        0 0 5px rgba(0,0,0,.1),
-        0 1px 3px rgba(0,0,0,.3),
-        0 3px 5px rgba(0,0,0,.2),
-        0 5px 10px rgba(0,0,0,.25),
-        0 10px 10px rgba(0,0,0,.2),
-        0 20px 20px rgba(0,0,0,.15);*/
 }
 
 
 /*Form*/
 
-/*.form-div {
-    margin: 0 auto 1em auto;
-    text-align: center;
-    display: block;
-    width: 100%;
-    
-}*/
-
-/*.list-form[type="text"] {
-    margin: 0;
-    display: inline-block;
-    font-size: 2em;
-}*/
-
 .input-control {
-    margin: 0 auto 1em auto;
+    margin: 0 0 2em 0;
     display: block;
     height: 2em;
     width: 100%;
     font-size: 2em;
 }
-.input-control.text {
+/*.input-control.text {
     border: 1px solid black;
     width: 100%;
-    height: 2em;
-}
+    height: 4em;
+}*/
 
-.mif-search {
-    font-size: 3em;
-}
-
-
-.button {
-    padding: 0 0 1em 0;
-    margin: 0;
+.list-form {
     display: inline-block;
-    height: 3.9em;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: -2.38em;
-    background-color: white;
-    border-top: 0px solid black;
-    border-right: 0px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    height: 4em;
+    width: 85%;
+    vertical-align: middle;
+}
+
+.add-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
    
 }
 
-.button:hover {
+.add-btn:hover {
     background-color: #FF822D;
     transition: background-color 0.5s;
 }
