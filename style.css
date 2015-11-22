@@ -79,14 +79,16 @@ h1 {
     margin: 0 0 0 0.5em;
     display: inline-block;
     vertical-align: middle;
-    width: 8.6em;
+    width: 8.9em;
     height: 4.82em;
     background-color: white;
     border: 0;
-    position: relative;
-    
-    
-   
+    position: relative;  
+}
+
+.add-btn:hover {
+    background-color: #FF822D;
+    transition: background-color 0.5s;
 }
 
 .plus {
@@ -96,12 +98,11 @@ h1 {
     font-size: 5em;
     vertical-align: middle;
     position:absolute;
+    top: -0.17em;
+    left: 0.5em;
 }
 
-.add-btn:hover {
-    background-color: #FF822D;
-    transition: background-color 0.5s;
-}
+
 
 
 /*List Items*/
