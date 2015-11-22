@@ -11,7 +11,7 @@ body {
 /*Masthead*/
 
 .masthead {
-    margin: 1.5em auto 0.75em auto;
+    margin: 1em auto 0.75em auto;
     width: 60%;
     padding: 0.3em 0 5em 0;
     height: 275px;
@@ -119,6 +119,7 @@ h1 {
 
 
 .check-box {
+    margin: 0 0.3em 0 0;
     background-color: black;
     width: 6.5em;
     height: 3em;
@@ -138,6 +139,14 @@ h1 {
     left: 2.3em;
 }
 
+.checked {
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    top: 0.6em;
+    left: 2.3em;
+}
+
 
 .item-text {
     margin: 0 0 0 ;
@@ -145,16 +154,22 @@ h1 {
     font-size: 2em;
     font-family: Lato;
     height: 1.5em;
-    width: 85.5%;
+    width: 85%;
     background-color: black;
     color: white;
     display: inline-block;
     vertical-align: middle;
 }
 
+.box-checked {
+    background-color: lightgray;
+}
+
 .text-checked {
+    background-color: lightgrey;
     text-decoration: line-through;
 }
+
 
 
 
