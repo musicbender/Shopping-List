@@ -95,7 +95,7 @@ h1 {
 
 .plus {
     margin: 0;
-    padding: -6em 0 0 0;
+    padding: 0;
     height: 0.5em;
     font-size: 5em;
     vertical-align: middle;
@@ -110,7 +110,7 @@ h1 {
 /*List Items*/
 
 .list-item {
-    margin: 1em auto;
+    margin: 0.5em auto 0 auto;
     padding: 0;
     /*height: 1.5em;*/
     width: 60%;
