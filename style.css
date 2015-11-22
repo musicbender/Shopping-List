@@ -101,7 +101,7 @@ h1 {
     vertical-align: middle;
     position:absolute;
     top: -0.17em;
-    left: 0.5em;
+    left: 0.52em;
 }
 
 
@@ -112,44 +112,44 @@ h1 {
 .list-item {
     margin: 1em auto;
     padding: 0;
-    height: 2em;
-    
-    
+    /*height: 1.5em;*/
+    width: 60%;
+    /*border: 2px solid red;*/
 }
 
-.item1 {
-    background-color: black;
-    color: white;
-}
-
-.item2 {
-
-}
-
-.item-checked {
-
-}
 
 .check-box {
- 
-    
-    
+    background-color: black;
+    width: 6.5em;
+    height: 3em;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
 }
 
-.uncheck {
-    
+.unchecked {
+    height: 50%;
+    width: 25%;
+    background-color: transparent;
+    border: 3.5px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0.6em;
+    left: 2.3em;
 }
 
-.check {
-
-}
 
 .item-text {
     margin: 0;
-    padding: 0.35em 0 0 0.75em;
+    padding: 0 0 0 0.5em;
     font-size: 2em;
     font-family: Lato;
-    height: 2em;
+    height: 1.5em;
+    width: 85.5%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .text-checked {
