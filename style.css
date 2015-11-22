@@ -14,21 +14,22 @@ body {
     margin: 4em auto 0 auto;
     width: 60%;
     padding: 0.3em 0 5em 0;
-    height: 194px;
+    height: 275px;
     text-align: center;
     display: block;
-    background-color: white;
+    
 }
 
 .title {
-    margin: 0 auto 2.2em auto;
-    height: 194px;
+    margin: 0 auto 0.5em auto;
+    background-color: white;
+    height: 250px;
 }
 
 h2 {
     font-size: 1em;
     color: #2AF0CF;
-    margin: -2em 0;
+    margin: -4em 0;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
     font-size: 5.5em;
     color: #2AF0CF;
     margin: 0.6em 0 0.5em 0;
+    padding: 0.5em 0;
 }
 
 
@@ -108,6 +110,7 @@ h1 {
 /*List Items*/
 
 .list-item {
+    margin: 1em auto;
     padding: 0;
     height: 2em;
     
@@ -128,10 +131,7 @@ h1 {
 }
 
 .check-box {
-    margin: 0;
-    background-color: #f2f2f2;
-    height: 4em;
-    border: 1px solid black;
+ 
     
     
 }
