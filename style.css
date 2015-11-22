@@ -159,6 +159,7 @@ h1 {
     color: white;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
 }
 
 .box-checked {
@@ -168,6 +169,13 @@ h1 {
 .text-checked {
     background-color: lightgrey;
     text-decoration: line-through;
+}
+
+.delete {
+    background-color: transparent;
+    position: absolute;
+    top: 0.1em;
+    right: 1.4em;
 }
 
 
