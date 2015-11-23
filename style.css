@@ -114,6 +114,7 @@ h1 {
     position:absolute;
     top: -0.25em;
     left: 0.475em;
+    pointer-events: none;
 }
 
 .plus:hover {
