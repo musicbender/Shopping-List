@@ -15,9 +15,14 @@ $(document).ready(function(){
     
     
     //Show delete button when hovering
-    $('.item-text').mouseenter(function(){
+    $('.item-text').on('mouseenter', '.item-text', function(){
         $(this).children().show();
+        alert('test');
     });
+    
+    /*$('.item-text').mouseenter(function(){
+        $(this).children().show();
+    });*/
     
     $('.item-text').mouseleave(function(){
         $(this).children().hide();
