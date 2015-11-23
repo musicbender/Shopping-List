@@ -5,6 +5,8 @@ $(document).ready(function(){
         
         $('.shopping-list').first().prepend('<div class="list-item"><div class="check-box"><div class="unchecked"></div></div><div class="item-text">' + formVal + '<div class="delete">X</div></div></div>');
         
+        $('.list-form').val('');
+        
         return false;
     });
     
