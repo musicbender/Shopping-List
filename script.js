@@ -3,7 +3,9 @@ $(document).ready(function(){
     $('.input-control').submit(function(){
         var formVal = $('.list-form').val();
         
+        $('.shopping-list').first().prepend('<div class="list-item"><div class="check-box"><div class="unchecked"></div></div><div class="item-text">Carrots<div class="delete">X</div></div></div>');
         
+        return false;
     });
     
     
