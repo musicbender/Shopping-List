@@ -15,25 +15,21 @@ $(document).ready(function(){
     
     
     //Show delete button when hovering
-    $('.item-text').on('mouseenter', '.item-text', function(){
+    $('.shopping-list').on('mouseenter', '.item-text', function(){
         $(this).children().show();
-        alert('test');
     });
     
-    /*$('.item-text').mouseenter(function(){
-        $(this).children().show();
-    });*/
-    
-    $('.item-text').mouseleave(function(){
+    $('.shopping-list').on('mouseleave', '.item-text', function(){
         $(this).children().hide();
     });
     
+    
     //Hover over checkbox
-    $('.check-box').mouseenter(function(){
+    $('.shopping-list').on('mouseenter', '.check-box', function(){
         $(this).children().css('background-color', '#FF822D');
     });
     
-    $('.check-box').mouseleave(function(){
+    $('.shopping-list').on('mouseleave', '.check-box', function(){
         $(this).children().css('background-color', 'black');
     });
     
