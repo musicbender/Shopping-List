@@ -49,12 +49,17 @@ $(document).ready(function(){
     
     
     //Re-uncheck list item
-        $('.shopping-list').on('click', '.check-box-checked', function(){
+    $('.shopping-list').on('click', '.check-box-checked', function(){
         $(this).removeClass('check-box-checked').addClass('check-box');
         $(this).children().css('background-color', '#FF822D');
         
         $(this).children().removeClass('checked').addClass('unchecked');
         $(this).siblings().removeClass('text-checked');
+    });
+    
+    //Delete list item
+    $('.shopping-list').on('click', '.delete', function(){
+        $(this).parent().parent().remove();
     });
     
 });
