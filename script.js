@@ -25,12 +25,22 @@ $(document).ready(function(){
     
     
     //Hover over checkbox
-    $('.shopping-list').on('mouseenter', '.check-box', function(){
+    $('.shopping-list').on('mouseenter', '.check-box, .check-box-checked', function(){
         $(this).children().css('background-color', '#FF822D');
     });
     
     $('.shopping-list').on('mouseleave', '.check-box', function(){
         $(this).children().css('background-color', 'black');
+    });
+    
+    
+    //Check off list item 
+    $('.shopping-list').on('click', '.check-box', function(){
+        $(this).removeClass('check-box').addClass('check-box-checked');
+        $(this).children().css('background-color', 'transparent');
+        
+        $(this).children().removeClass('unchecked').addClass('checked lnr lnr-checkmark-circle');
+        $(this).siblings().addClass('text-checked');
     });
     
 });

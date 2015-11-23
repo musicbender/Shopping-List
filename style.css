@@ -104,8 +104,6 @@ h1 {
     border: 0;
 }
 
-
-
 .plus {
     margin: 0;
     padding: 0 0 0 0;
@@ -144,13 +142,21 @@ h1 {
 
 
 .check-box {
-    margin: 0 0.3em 0 0;
     background-color: black;
+}
+
+.check-box-checked {
+    background-color: lightgray;
+}
+
+.check-box, .check-box-checked {
+    margin: 0 0.3em 0 0;
     width: 99px;
     height: 3em;
     display: inline-block;
     vertical-align: middle;
     position: relative;
+    
 }
 
 .unchecked {
@@ -167,6 +173,10 @@ h1 {
 .checked {
     height: 50%;
     width: 25%;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    background-image: url(images/checkmark.png);
+    background-size: cover;
     position: absolute;
     top: 0.2em;
     left: 1.03em;
@@ -188,10 +198,6 @@ h1 {
     vertical-align: middle;
     float: right;
     position: relative;
-}
-
-.box-checked {
-    background-color: lightgray;
 }
 
 .text-checked {
