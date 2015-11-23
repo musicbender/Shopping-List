@@ -127,6 +127,13 @@ h1 {
 
 /*List Items*/
 
+.shopping-list {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
 .list-item {
     margin: 0.5em auto 0 auto;
     padding: 0;
@@ -197,6 +204,7 @@ h1 {
     position: absolute;
     top: 0.1em;
     right: 1.4em;
+    display: none;
 }
 
 
