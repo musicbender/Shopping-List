@@ -1,5 +1,8 @@
 $(document).ready(function(){
     
+    $('.input-control').focus();
+    
+    //Add new list item
     $('.input-control').submit(function(){
         var formVal = $('.list-form').val();
         
@@ -11,10 +14,6 @@ $(document).ready(function(){
     });
     
     
-    
-    
-    
-    
     //Show delete button when hovering
     $('.item-text').mouseenter(function(){
         $(this).children().show();
@@ -22,6 +21,15 @@ $(document).ready(function(){
     
     $('.item-text').mouseleave(function(){
         $(this).children().hide();
+    });
+    
+    //Hover over checkbox
+    $('.check-box').mouseenter(function(){
+        $(this).children().css('background-color', '#FF822D');
+    });
+    
+    $('.check-box').mouseleave(function(){
+        $(this).children().css('background-color', 'black');
     });
     
 });

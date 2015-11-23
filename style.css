@@ -146,7 +146,7 @@ h1 {
 .check-box {
     margin: 0 0.3em 0 0;
     background-color: black;
-    width: 6.5em;
+    width: 99px;
     height: 3em;
     display: inline-block;
     vertical-align: middle;
@@ -181,11 +181,12 @@ h1 {
     font-size: 2em;
     font-family: Lato;
     height: 1.5em;
-    width: 85%;
+    width: 86%;
     background-color: black;
     color: white;
     display: inline-block;
     vertical-align: middle;
+    float: right;
     position: relative;
 }
 
