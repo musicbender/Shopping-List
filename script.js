@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    $('.add-btn').submit(function(){
-        var formVal = $('.list-form').val();
-        console.log("goats " + formVal);
+    
+    $('.input-control').submit(function(){
+        //var formVal = $('.list-form').val();
+        console.log("goats ");
+        alert('goats');
     });
 });
