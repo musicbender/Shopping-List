@@ -1,3 +1,9 @@
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
 body, html{
     margin: 0;
     padding: 0;
@@ -68,9 +74,8 @@ h1 {
     margin: 0;
     padding: 0 0 0 1em;
     padding: 0;
-    display: inline-block;
     height: 100%;
-    width: 86%;
+    width: 88.8%;
     vertical-align: middle;
     float: left;
     font-size: 0.8em;
@@ -81,7 +86,7 @@ h1 {
 .btn-container {
     display: inline-block;
     vertical-align: middle;
-    width: 99px;
+    width: 10%; /*99px;*/
     height: 100%;
     padding: 0;
     margin: 0;
@@ -114,8 +119,8 @@ h1 {
     vertical-align: middle;
     background-color: transparent;
     position:absolute;
-    top: -0.2em;
-    left: 0.6em;
+    top: -18.5%;
+    left: 31%;
     pointer-events: none;
 }
 
@@ -129,7 +134,7 @@ h1 {
 /*List Items*/
 
 .shopping-list {
-    margin: 0 auto;
+    margin: 6em auto;
     padding: 0;
     width: 100%;
 }
@@ -153,36 +158,36 @@ h1 {
 }
 
 .check-box, .check-box-checked {
-    margin: 0 0.3em 0 0;
-    width: 99px;
+    margin: 0 0 0 0;
+    width: 10%;
     height: 3em;
-    display: inline-block;
+    float: left;align-content: 
     vertical-align: middle;
     position: relative;
     
 }
 
 .unchecked {
-    height: 50%;
-    width: 25%;
+    height: 66%;
+    width: 34px;
     background-color: transparent;
-    border: 2.5px solid white;
+    border: 3px solid white;
     border-radius: 100%;
     position: absolute;
-    top: 0.6em;
-    left: 2.3em;
+    top: 16%;
+    left: 32%;
 }
 
 .checked {
-    height: 50%;
-    width: 25%;
-    border: 2.5px solid white;
+    height: 66%;
+    width: 34px;
+    border: 3px solid white;
     border-radius: 100%;
     background-image: url(images/checkmark.png);
     background-size: cover;
     position: absolute;
-    top: 0.2em;
-    left: 1.03em;
+    top: 16%;
+    left: 32%;
     font-size:2.1em;
     color:black;
 }
@@ -198,10 +203,10 @@ h1 {
     font-size: 2em;
     font-family: Lato;
     height: 1.5em;
-    width: 86%;
+    width: 88.8%;
     background-color: black;
     color: white;
-    display: inline-block;
+  
     vertical-align: middle;
     float: right;
     position: relative;

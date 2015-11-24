@@ -1,6 +1,8 @@
 $(document).ready(function(){
     
+    //Puts focus on form when page loads
     $('.list-form').focus();
+    
     
     //Add new list item
     $('.input-control').submit(function(){
