@@ -134,18 +134,18 @@ h1 {
 /*List Items*/
 
 .shopping-list {
-    margin: 6em auto;
+    margin: 6.3em auto;
     padding: 0;
     width: 100%;
 }
 
 
 .list-item {
-    margin: 0.5em auto 0 auto;
+    margin: 36px auto 0 auto;
     padding: 0;
-    /*height: 1.5em;*/
+    height: 1.5em;
     width: 60%;
-    /*border: 2px solid red;*/
+    display: none;
 }
 
 
