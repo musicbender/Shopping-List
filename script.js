@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    $('.input-control').focus();
+    $('.list-form').focus();
     
     //Add new list item
     $('.input-control').submit(function(){

@@ -5,6 +5,8 @@ body, html{
 
 body {
     background-color: #2AF0CF;
+    webkit-font-smoothing: antialiased;
+    
 }
 
 
@@ -68,10 +70,10 @@ h1 {
     padding: 0;
     display: inline-block;
     height: 100%;
-    width: 85.5%;
+    width: 86%;
     vertical-align: middle;
     float: left;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-family: Lato;
     border: 0;
 }
@@ -183,6 +185,10 @@ h1 {
     left: 1.03em;
     font-size:2.1em;
     color:black;
+}
+
+.check-box:hover, .check-box-checked:hover {
+    cursor: pointer;
 }
 
 
