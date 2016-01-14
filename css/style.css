@@ -11,10 +11,8 @@ body, html{
 
 body {
     background-color: #2AF0CF;
-    webkit-font-smoothing: antialiased;
-    
+    -webkit-font-smoothing: antialiased;  
 }
-
 
 /*Masthead*/
 
@@ -24,8 +22,7 @@ body {
     padding: 0.3em 0 5em 0;
     height: 275px;
     text-align: center;
-    display: block;
-    
+    display: block; 
 }
 
 .title {
@@ -47,7 +44,6 @@ h1 {
     margin: 0.6em 0 0.5em 0;
     padding: 0.5em 0;
 }
-
 
 /*Form*/
 
@@ -128,9 +124,6 @@ h1 {
     cursor: pointer;
 }
 
-
-
-
 /*List Items*/
 
 .shopping-list {
@@ -139,15 +132,14 @@ h1 {
     width: 100%;
 }
 
-
 .list-item {
     margin: 36px auto 0 auto;
     padding: 0;
     height: 1.5em;
     width: 60%;
     display: none;
+    position: relative;
 }
-
 
 .check-box {
     background-color: black;
@@ -159,7 +151,7 @@ h1 {
 
 .check-box, .check-box-checked {
     margin: 0 0 0 0;
-    width: 10%;
+    width: 80px;
     height: 3em;
     float: left;align-content: 
     vertical-align: middle;
@@ -200,12 +192,12 @@ h1 {
 
 
 .item-text {
-    margin: 0 0 0 ;
+    margin: 0 0 0 10px;
     padding: 0 0 0 0.5em;
     font-size: 2em;
     font-family: Lato;
     height: 1.5em;
-    width: 88.8%;
+    width: calc(100% - 90px);
     background-color: black;
     color: white;
   

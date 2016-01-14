@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.input-control').submit(function(){
         var formVal = $('.list-form').val();
         
-        $('.shopping-list').first().prepend('<div class="list-item"><div class="check-box"><div class="unchecked"></div></div><div class="item-text">' + formVal + '<div class="delete">X</div></div></div>').show('slow');
+        $('.shopping-list').first().prepend('<div class="list-item"><div class="item-text">' + formVal + '<div class="delete">X</div></div><div class="check-box"><div class="unchecked"></div></div></div>').show('slow');
         $('.list-item').slideDown(500, 'swing');
         $('.list-form').val('');
         
