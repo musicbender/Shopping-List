@@ -255,6 +255,14 @@ body {
     .shopping-list {
         margin: 95px auto;
     }
+    .item-text {
+        padding: 6px 0 0 0.5em;
+        height: 2em;
+        font-size: 1.5em;
+    }
+    .delete {
+        margin-top: 7px;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -277,13 +285,13 @@ body {
         margin: 14% auto 10% auto;
     }
     .item-text {
-        padding: 5px 0 0 0.5em;
+        padding: 9px 0 0 0.5em;
         width: calc(100% - 70px);
-        height: 1.75em;
-        font-size: 1.75em;
+        height: 2.4em;
+        font-size: 1.25em;
     }
     .delete {
-        margin-top: 4px;
+        margin-top: 8px;
     }
 }
 
