@@ -31,18 +31,18 @@ body {
     height: 250px;
 }
 
-h2 {
-    font-size: 1em;
-    color: #2AF0CF;
-    margin: -4em 0;
-}
-
-h1 {
+.title-text {
     font-family: Lato;
     font-size: 5.5em;
     color: #2AF0CF;
     margin: 0.6em 0 0.5em 0;
     padding: 0.5em 0;
+}
+
+.sub-title {
+    font-size: 1em;
+    color: #2AF0CF;
+    margin: -4em 0;
 }
 
 /*******Form*******/
@@ -221,6 +221,31 @@ h1 {
     cursor: pointer;
 }
 
+/*******Media Queries*******/
+
+@media only screen and (max-width: 930px) {
+    .title {
+        height: 200px;
+    }
+    .title-text {
+        font-size: 4em;
+    }
+    .sub-title {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .title {
+        height: 175px;
+    }
+    .title-text {
+        font-size: 3em;
+    }
+    .sub-title {
+        display: none;
+    }
+}
 
 
 
