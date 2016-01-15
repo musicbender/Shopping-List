@@ -29,13 +29,14 @@ body {
     margin: 0 auto 0.66em auto;
     background-color: white;
     height: 250px;
+    overflow: hidden;
 }
 
 .title-text {
     font-family: Lato;
     font-size: 5.5em;
     color: #2AF0CF;
-    margin: 0.6em 0 0.5em 0;
+    margin: -0.2em 0 0.5em 0;
     padding: 0.5em 0;
 }
 
@@ -123,7 +124,7 @@ body {
 /*******List Items*******/
 
 .shopping-list {
-    margin: 6.3em auto;
+    margin: 50px auto;
     padding: 0;
     width: 100%;
 }
@@ -226,7 +227,7 @@ body {
     }
     /*list-section*/
     .shopping-list {
-        margin: -46px auto;
+        margin: -85px auto;
     }
 }
 
@@ -253,7 +254,7 @@ body {
     .plus {
     }
     .shopping-list {
-        margin: 46px auto;
+        margin: -27px auto;
     }
     .item-text {
         padding: 7px 0 0 0.5em;
@@ -273,7 +274,7 @@ body {
         font-size: 3em;
     }
     .shopping-list {
-        margin: -34px auto;
+        margin: -63px auto;
     }
 }
 
@@ -296,6 +297,26 @@ body {
     }
     .delete {
         margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .title {
+        height: 150px;
+    }
+    .title-text {
+        font-size: 3.1em;
+    }
+    .shopping-list {
+        margin: -27px auto;
+    }
+    .item-text {
+        padding: 12px 0 0 0.5em;
+        height: 3.02em;
+        font-size: 1em;
+    }
+    .delete {
+        margin-top: 12px;
     }
 }
 
