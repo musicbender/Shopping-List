@@ -1,7 +1,7 @@
 * {
    -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+   -moz-box-sizing:    border-box;
+   box-sizing:         border-box;
 }
 
 body, html{
@@ -14,7 +14,7 @@ body {
     -webkit-font-smoothing: antialiased;  
 }
 
-/*Masthead*/
+/*******Masthead*******/
 
 .masthead {
     margin: 1em auto 0.75em auto;
@@ -45,7 +45,7 @@ h1 {
     padding: 0.5em 0;
 }
 
-/*Form*/
+/*******Form*******/
 
 .input-control {
     margin: 0 0 1em 0;
@@ -124,7 +124,7 @@ h1 {
     cursor: pointer;
 }
 
-/*List Items*/
+/*******List Items*******/
 
 .shopping-list {
     margin: 6.3em auto;
@@ -156,7 +156,6 @@ h1 {
     float: left;align-content: 
     vertical-align: middle;
     position: relative;
-    
 }
 
 .unchecked {
@@ -190,7 +189,6 @@ h1 {
     cursor: pointer;
 }
 
-
 .item-text {
     margin: 0 0 0 10px;
     padding: 0 0 0 0.5em;
@@ -200,7 +198,6 @@ h1 {
     width: calc(100% - 90px);
     background-color: black;
     color: white;
-  
     vertical-align: middle;
     float: right;
     position: relative;
