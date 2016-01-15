@@ -104,9 +104,7 @@ body {
         width: 100%;
     }
     .plus {
-        position: absolute;
-        top: -18.5%;
-        left: 43%; /*not working*/
+        margin: 0;
     }
 }
 
@@ -126,15 +124,11 @@ body {
 }
 
 .plus {
-    margin: 0;
+    margin: -10px 0 0 0;
     padding: 0 0 0 0;
-    height: 0.5em;
     font-size: 1.65em;
     vertical-align: middle;
     background-color: transparent;
-    position: absolute;
-    top: -18.5%;
-    left: 31%;
     pointer-events: none;
 }
 
