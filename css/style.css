@@ -280,10 +280,7 @@ body {
 }
 
 @media only screen 
-and (max-device-width: 460px) 
-and (aspect-ratio : 375/559)
-and (min-device-pixel-ratio : 2)
-and (-webkit-min-device-pixel-ratio : 2){
+and (max-device-width: 460px) {
     .sub-title {
         display: none;
     }
@@ -306,17 +303,12 @@ and (-webkit-min-device-pixel-ratio : 2){
 }
 
 @media only screen 
-and (min-device-width : 320px)
-and (max-device-width : 375px) 
-and (aspect-ratio : 375/559)
-and (min-device-pixel-ratio : 2)
-and (-webkit-min-device-pixel-ratio : 2)
-and (orientation : portrait){
+and (max-device-width : 374px) {
     .title {
         height: 150px;
     }
     .title-text {
-        font-size: 3.1em;
+        font-size: 3em;
     }
     .shopping-list {
         margin: -27px auto;

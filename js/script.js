@@ -15,21 +15,21 @@ $(document).ready(function(){
     });
     
     //Show delete button when hovering
-    $('.shopping-list').on('mouseenter', '.item-text', function(){
+    $('.shopping-list').on('mouseenter touchstart', '.item-text', function(){
         $(this).children().show();
     });
-    $('.shopping-list').on('mouseleave', '.item-text', function(){
+    $('.shopping-list').on('mouseleave touchend', '.item-text', function(){
         $(this).children().hide();
     });
     
     //Hover over checkbox
-    $('.shopping-list').on('mouseenter', '.check-box, .check-box-checked', function(){
+    $('.shopping-list').on('mouseenter touchstart', '.check-box, .check-box-checked', function(){
         $(this).children().css('background-color', 'white');
     });
-    $('.shopping-list').on('mouseleave', '.check-box', function(){
+    $('.shopping-list').on('mouseleave touchend', '.check-box', function(){
         $(this).children().css('background-color', 'black');
     });
-    $('.shopping-list').on('mouseleave', '.check-box-checked', function(){
+    $('.shopping-list').on('mouseleave touchend', '.check-box-checked', function(){
         $(this).children().css('background-color', 'transparent');
     });
     
