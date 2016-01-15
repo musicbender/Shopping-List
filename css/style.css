@@ -26,7 +26,7 @@ body {
 }
 
 .title {
-    margin: 0 auto 0.5em auto;
+    margin: 0 auto 0.66em auto;
     background-color: white;
     height: 250px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .list-item {
-    margin: 36px auto 0 auto;
+    margin: 34px auto 0 auto;
     padding: 0;
     height: 1.5em;
     width: 60%;
@@ -181,7 +181,7 @@ body {
 
 .item-text {
     margin: 0 0 0 10px;
-    padding: 0 0 0 0.5em;
+    padding: 2px 0 0 0.5em;
     font-size: 2em;
     font-family: Lato;
     height: 1.5em;
@@ -216,7 +216,7 @@ body {
 @media only screen and (max-width: 930px) {
     /*title-section*/
     .title {
-        height: 200px;
+        height: 150px;
     }
     .title-text {
         font-size: 4em;
@@ -226,7 +226,7 @@ body {
     }
     /*list-section*/
     .shopping-list {
-        margin: 36px auto;
+        margin: -46px auto;
     }
 }
 
@@ -253,10 +253,10 @@ body {
     .plus {
     }
     .shopping-list {
-        margin: 95px auto;
+        margin: 46px auto;
     }
     .item-text {
-        padding: 6px 0 0 0.5em;
+        padding: 7px 0 0 0.5em;
         height: 2em;
         font-size: 1.5em;
     }
@@ -265,19 +265,23 @@ body {
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 500px) {
     .title {
-        height: 175px;
+        height: 115px;
     }
     .title-text {
         font-size: 3em;
     }
+    .shopping-list {
+        margin: -34px auto;
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .sub-title {
         display: none;
     }
-    .shopping-list {
-        margin: 61px auto;
-    }
+
     .check-box, .check-box-checked {
         width: 60px;
     }
