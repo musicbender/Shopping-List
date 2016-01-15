@@ -281,6 +281,9 @@ body {
 
 @media only screen 
 and (max-device-width: 460px) {
+    .title-text {
+        font-size: 2.75em;
+    }
     .sub-title {
         display: none;
     }
