@@ -59,7 +59,7 @@ body {
 .list-form[type="text"]{
     padding: 0 0 0 0.5em;
     border: 0;
-    font-family: "Open Sans", sans-serif";
+    font-family: "Open Sans", sans-serif;
 }
 
 .list-form[type=text]:focus, textarea:focus {
@@ -151,7 +151,7 @@ body {
     margin: 0 0 0 0;
     width: 80px;
     height: 3em;
-    float: left;align-content: 
+    float: left;
     vertical-align: middle;
     position: relative;
 }
@@ -279,7 +279,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-device-width: 460px) {
     .sub-title {
         display: none;
     }
@@ -301,7 +301,10 @@ body {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 380px) 
+and (-webkit-min-device-pixel-ratio: 2) {
     .title {
         height: 150px;
     }
