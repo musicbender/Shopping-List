@@ -67,11 +67,11 @@ body {
 }
 
 .list-form {
-    margin: 0;
+    margin: 0 10px 0 0;
     padding: 0 0 0 1em;
     padding: 0;
     height: 100%;
-    width: 88.8%;
+    width: calc(100% - 90px);
     vertical-align: middle;
     float: left;
     font-size: 0.8em;
@@ -82,7 +82,7 @@ body {
 .btn-container {
     display: inline-block;
     vertical-align: middle;
-    width: 10%; /*99px;*/
+    width: 80px;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -90,6 +90,24 @@ body {
     position: relative;
     background-color: transparent;
     z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-form[type="text"] {
+        font-size: 0.6em;
+    }
+    .list-form {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+    .btn-container {
+        width: 100%;
+    }
+    .plus {
+        position: absolute;
+        top: -18.5%;
+        left: 43%; /*not working*/
+    }
 }
 
 .add-btn:hover, .plus {
@@ -114,7 +132,7 @@ body {
     font-size: 1.65em;
     vertical-align: middle;
     background-color: transparent;
-    position:absolute;
+    position: absolute;
     top: -18.5%;
     left: 31%;
     pointer-events: none;
@@ -165,9 +183,6 @@ body {
     background-color: transparent;
     border: 3px solid white;
     border-radius: 100%;
-    /*position: absolute;
-    top: 16%;
-    left: 32%;*/
 }
 
 .checked {
@@ -178,9 +193,6 @@ body {
     border-radius: 100%;
     background-image: url(images/checkmark.png);
     background-size: cover;
-    /*position: absolute;
-    top: 16%;
-    left: 32%;*/
     font-size:2.1em;
     color:black;
 }
@@ -233,6 +245,10 @@ body {
     .sub-title {
         display: none;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
 
 @media only screen and (max-width: 460px) {
